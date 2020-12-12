@@ -1,6 +1,9 @@
 import react from "react";
 
 const Header = (props) => {
+  
+  const {search, onInputChange} = props;
+
   return (
     <>
       <div className="jumbotron">
