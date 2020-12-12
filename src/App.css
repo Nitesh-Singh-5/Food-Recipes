@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    background-color: rgba(19, 72, 157, 0.99);
+    color: rgb(240, 255, 255);
+}
+.jumbotron h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.jumbotron p{
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(155, 225, 255, 0.979);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Food-icon{
+    color:  rgb(255, 135, 113);
+    margin-right: 6px;
+}
