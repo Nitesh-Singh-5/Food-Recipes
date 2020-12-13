@@ -2,7 +2,7 @@ import react from "react";
 
 const Header = (props) => {
   
-  const {search, onInputChange} = props;
+  const {search, onInputChange, onSearchClick} = props;
 
   return (
     <>
@@ -18,7 +18,7 @@ const Header = (props) => {
         </p>
         <div class="input-group w-50 mx-auto">
             <input type="text" class="form-control" placeholder="Search your recipe.." value={props.search} onChange={props.onInputChange}/>
-          <button className="btn btn-success">Search Recipe</button>
+          <button className="btn btn-success" onClick={onSearchClick}>Search Recipe</button>
         </div>
       </div>
     </>

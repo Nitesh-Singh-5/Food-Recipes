@@ -26,11 +26,14 @@ function App() {
   const onInputChange = (e) => {
     setsearch(e.target.value);
   };
+  const onSearchClick = () =>{
+    getRecipe()
+  }
 
   return (
     <>
       <div className="App">
-        <Header search={search} onInputChange={onInputChange} />
+        <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick} />
         <div className="container">
           <Recepies recipes={recipes} />
         </div>
