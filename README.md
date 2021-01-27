@@ -1,4 +1,4 @@
-### https://nitesh-singh-5.github.io/Food-Recipes/
+### App link : https://nitesh-singh-5.github.io/Food-Recipes/
 
 # Getting Started with Create React App
 
