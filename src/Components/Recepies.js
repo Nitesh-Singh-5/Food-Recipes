@@ -11,7 +11,7 @@ const Recepies = (props) => {
             name={recipe.recipe.label}
             image={recipe.recipe.image}
             ingredientLines={recipe.recipe.ingredientLines} />
-            ))};
+            ))}
         </div>
         </>
     );
